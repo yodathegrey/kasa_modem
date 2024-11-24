@@ -4,7 +4,7 @@
 
 Can be saved to any Linux OS but a Raspberry Pi acts as a great host for this. 
 
-This script will reach out to 8.8.8.8 and determine if internet connevitivy exists. If no connectivity, will restart kasa power switch.
+This script will reach out to 8.8.8.8 and determine if internet connevitivy exists. If no connectivity after 8, 30 second retries, will restart kasa power switch.
 
 # Install all PyPi modules
 
