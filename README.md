@@ -6,13 +6,9 @@ Can be saved to any Linux OS but a Raspberry Pi acts as a great host for this.
 
 # Install all PyPi modules
 
-from kasa import Discover, Credentials, Module, Device
-import asyncio
-import socket
-import datetime
-import logging
-import logging.handlers
-import time
+## python-kasa
+## asyncio
+## logging
 
 # Use Discover to find Name and IP of Switch
 
